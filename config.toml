@@ -1,0 +1,28 @@
+[paths]
+csv_directory = "C:/Program Files (x86)/Steam/steamapps/common/FPSAimTrainer/FPSAimTrainer/stats"
+
+[database]
+host = "localhost"
+port = 5432
+database = "kovaaks_db"
+user = "kovaaks_aim_tracker"
+password = ""
+max_connections = 10
+connection_timeout = 30
+
+[filtering]
+scenarios = []
+exclude_scenarios = []
+date_from = ""
+date_to = ""
+
+[processing]
+batch_size = 500
+skip_duplicates = true
+# Continuously watch for new updates to local directory.
+watch_mode = false
+
+[logging]
+level = "info"
+log_file = ""
+

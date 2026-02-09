@@ -1,0 +1,65 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# vcpkg installed packages (don't commit these)
+vcpkg_installed/
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+kovaaks_api
+
+# Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Config with secrets (if you add passwords later)
+# config.toml  # Uncomment if you store passwords in config
+
+# Database dumps
+*.sql
+*.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Core dumps
+core
+core.*

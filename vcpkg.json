@@ -1,0 +1,9 @@
+{
+  "name": "aim-analyzer",
+  "version": "0.1.0",
+  "dependencies": [
+    "tomlplusplus",
+    "libpq",
+    "libpqxx"
+  ]
+}
